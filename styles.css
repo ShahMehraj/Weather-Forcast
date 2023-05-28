@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("valley.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .weather-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 3px solid #ccc; /* Increase the border thickness */
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    display: block; /* Convert the input into a block element */
+    margin-left: auto; /* Center align the input horizontally */
+    margin-right: auto;
+  }
+  
+
+  
+  button {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  #weather-info p {
+    margin: 5px 0;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+
+  
